@@ -11,6 +11,16 @@ export const AboutSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
+            <div className="flex justify-center md:justify-start">
+              <div className="relative w-48 h-48 rounded-full overflow-hidden border-4 border-primary/20 hover:border-primary transition-colors duration-300">
+                <img 
+                  src="/profile_picure.jpeg" 
+                  alt="Profile" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
+
             <h3 className="text-2xl font-semibold">
               Final Year Diploma Student & Tech Enthusiast
             </h3>
